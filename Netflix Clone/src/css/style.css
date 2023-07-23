@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/src/imgs/background.jpg);
+}
+.logo img{
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+    margin: 20px;
+    width: 250px;
+}
+
+.container{
+    background-color: #000000cd;
+    border-radius: 10px;
+    width: 600px;
+    height: 650px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    font-size: 25px;
+    color: #fff;
+    font-family: arial;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.camposDeTextos{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.camposDeTextos input{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 30px;
+    width: 90%;
+    height: 50px;
+    display: block;
+}
+
+.camposDeTextos input::placeholder{
+    position: relative;
+    left: 10px;
+    color: rgb(99, 99, 99);
+}
+
+.camposDeTextos input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(253, 9, 9);
+}
+.Infos{
+    margin-left: 50px;
+    font-family: arial;
+    color: #fff;
+}
+.others #help{
+    margin-left: 200px;
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+}
+
+.face{
+    margin-top: 10px;
+}
+
+.face img{
+    position: absolute;
+    width: 20px;
+}
+.face p{
+    color: darkgrey;
+    margin-left: 25px;
+}
+
+.register{
+    margin-top: 20px;
+}
+
+.register p{
+    color: darkgray;
+}
+.register a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Captcha{
+    margin-top: 20px;
+}
+.Captcha p{
+    color: darkgray;
+}
+.Captcha a{
+    color: rgb(114, 114, 255);
+    text-decoration: none;
+}
